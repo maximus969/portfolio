@@ -1,0 +1,36 @@
+.footer {
+  background-color: violet;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerBlock {
+  border: 1px solid;
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  background-color: wheat;
+  margin: 0;
+}
+
+.socialMedia {
+  border: 1px solid;
+  width: 280px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: yellowgreen;
+}

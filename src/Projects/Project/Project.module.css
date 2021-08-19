@@ -1,0 +1,39 @@
+.project {
+  width: 250px;
+  background-color: rgb(236, 161, 108);
+  display: flex;
+  flex-direction: column;
+}
+
+.imgProject {
+  width: 100%;
+  height: 200px;
+  background-image: url('https://nastroisam.ru/2014/it-technology-01.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectButton {
+  background-color: springgreen;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
+.title {
+  background-color: slategray;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px 0;
+}
+
+.description {
+  background-color: slategray;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 5px;
+}

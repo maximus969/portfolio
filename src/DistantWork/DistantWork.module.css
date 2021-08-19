@@ -1,0 +1,28 @@
+.container {
+  height: 300px;
+  background-color: tan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  border: 1px solid;
+  height: 50%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  background-color: teal;
+}
+
+.text {
+  text-decoration: none;
+  background-color: teal;
+  padding: 5px;
+}
